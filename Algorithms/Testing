@@ -1,0 +1,96 @@
+
+###Testing of algorithms
+
+'''
+
+from Sorting.bubblesort import bubble_sort
+
+print("***Bubble Sort***")
+print("input: " , [8, 30, 1, 13, -88])
+print("output: " , bubble_sort([8, 30, 1, 13, -88]))
+
+'''
+'''
+from Sorting.selectionsort import SelectionSort
+'''
+'''
+print("***Selection Sort***")
+print("input: " , [8, 30, 1, 13, -88])
+print("output: " , SelectionSort([8, 30, 1, 13, -88]))
+'''
+###from Sorting.bubblesortmaster import bubble_sort_opt
+'''
+'''
+print("***Bubble Sort Optimizado***")
+print("input: " , [8, 30, 1, 13, -88])
+print("output: " , bubble_sort_opt([8, 30, 1, 13, -88]))
+'''
+###from Sorting.insertionsort import insertion_sort
+'''
+###print("***Insertion Sort***")
+###print("input: " , [8, 30, 1, 13, -88])
+###print("output: " , insertion_sort([8, 30, 1, 13, -88]))
+'''
+from unittest import result
+from Searching.binarysearch import binary_search
+'''
+###print("***Binary Search***")
+'''
+print("input: " , [8, 30, 1, 13, -88])
+print("output: " , binary_search([8, 30, 1, 13, -88]))
+'''
+###if result == -1:
+    ###print("El elemento no se encontró")
+###else:
+    print("El elemento está presente en la casilla: ", str(result))
+'''
+###from Searching.linearsearch import linear_search
+'''
+###print("***Linear Search***")
+###print("input: " , [8, 30, 1, 13, -88])
+###print("output: " , linear_search([8, 30, 1, 13, -88] , 8))
+'''
+from Recursion.countdown import cuenta
+'''
+###print("***Cuenta regresiva***")
+###print(cuenta(10+1))
+'''
+from Recursion.fibonacciiii import fibonacci
+'''
+print("***Fibonacci***")
+print(fibonacci(10))
+'''
+from Recursion.sumofnrecursive import sum
+'''
+print("***suma de los primeros n numeros***")
+print(sum(10))
+'''
+from Bruteforce.4digitpin import unlock
+'''
+print("***Pin unlock***")
+print(unlock("4625"))
+'''
+from Bruteforce.Divisorsofn import divisores
+'''
+print("***Divisores de n***")
+n = 120
+###result = divisores(120)
+print("n: " + str(n) + " divisores: " + str(result))
+'''
+
+from Bruteforce.Sumoffirst import sum
+'''
+###print("***suma de los primeros n numeros***")
+n = int(input("ingrese un numero n: "))
+'''
+from Lists.listmerge import juntar
+'''
+print("***List merge***")
+juntar()
+'''
+from Lists.largestnumber import cuadrado
+print("***largest number***")
+cuadrado()
+'''
+'''
+'''
